@@ -1,0 +1,40 @@
+*php-search-doc.txt*   php-doc plugin documentation
+
+|php-search-doc-introduction|       Introduction
+|php-search-doc-configuration|      Configuration
+|php-search-doc-copyright|          Copyright
+
+
+Introduction *php-search-doc-introduction*
+
+When your cursor is on something you would look up on php.net, type:
+
+- <Leader>pf for function help
+- <Leader>pm for manual search
+
+and the plugin will open a new tab in your browser (or a
+new instance of the browser) to the related docs. See the following section
+for changing mappings.
+
+Configuration *php-search-doc-configuration* *g:php_search_doc_php_command*
+*g:php_search_doc_mapping*
+
+By default, the plugin uses the open command to look up the docs but you
+can easily change the command. For example, if you are on *NIX you would like to
+change it:
+
+    let g:php_search_doc_command='xdg-open'
+
+Furthermore you can choose your own mapping in the following way:
+
+    let g:php_search_doc_manual_mapping='KK'
+
+There are g:php_search_doc_function_mapping and g:php_search_doc_manual_mapping
+variables available.
+
+Copyright *php-search-doc-copyright*
+
+Copyright (c) Erik Fercak. Heavily inspired and copied from vim-ruby-doc plugin:
+https://github.com/lucapette/vim-ruby-doc
+Distributed under the same terms as Vim itself.
+See |license|.

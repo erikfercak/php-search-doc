@@ -1,0 +1,6 @@
+g:php_search_doc_mapping	php-search-doc.txt	/*g:php_search_doc_mapping*
+g:php_search_doc_php_command	php-search-doc.txt	/*g:php_search_doc_php_command*
+php-search-doc-configuration	php-search-doc.txt	/*php-search-doc-configuration*
+php-search-doc-copyright	php-search-doc.txt	/*php-search-doc-copyright*
+php-search-doc-introduction	php-search-doc.txt	/*php-search-doc-introduction*
+php-search-doc.txt	php-search-doc.txt	/*php-search-doc.txt*
