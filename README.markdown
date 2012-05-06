@@ -12,9 +12,9 @@ Installation
 Either use [pathogen.vim](https://github.com/tpope/pathogen.vim):
 
     cd ~/.vim/bundle
-    git clone git://github.com/lucapette/vim-ruby-doc.git
+    git clone git://github.com/erikfercak/php-search-doc.git
 
-or you can unzip it in your `~/.vim` directory.
+or you can copy it into your `~/.vim` directory manually.
 
 How to use it
 -------------
@@ -44,6 +44,10 @@ Furthermore you can choose your own mapping in the following way:
 
 There are g:php_search_doc_function_mapping and g:php_search_doc_manual_mapping
 variables available.
+
+Contributors
+------------
+[Michael Contento](https://github.com/michaelcontento)
 
 License
 -------
