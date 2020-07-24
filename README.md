@@ -9,7 +9,7 @@ Or even ruby:
 Installation
 ------------
 
-Either use [pathogen.vim](https://github.com/tpope/pathogen.vim):
+Either use [pathogen.vim](https://github.com/tpope/vim-pathogen):
 
     cd ~/.vim/bundle
     git clone git://github.com/erikfercak/php-search-doc.git
